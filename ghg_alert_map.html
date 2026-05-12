@@ -17,7 +17,7 @@
             <meta name="viewport" content="width=device-width,
                 initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
             <style>
-                #map_6b08c1f972f5a1c186c96b2021dca081 {
+                #map_df1d9205a99269c419e3650d7c0c32b7 {
                     position: relative;
                     width: 100.0%;
                     height: 100.0%;
@@ -55,16 +55,16 @@
 <body>
     
     
-            <div class="folium-map" id="map_6b08c1f972f5a1c186c96b2021dca081" ></div>
+            <div class="folium-map" id="map_df1d9205a99269c419e3650d7c0c32b7" ></div>
         
 </body>
 <script>
     
     
-            var map_6b08c1f972f5a1c186c96b2021dca081 = L.map(
-                "map_6b08c1f972f5a1c186c96b2021dca081",
+            var map_df1d9205a99269c419e3650d7c0c32b7 = L.map(
+                "map_df1d9205a99269c419e3650d7c0c32b7",
                 {
-                    center: [13.122279801556282, 80.38833618164064],
+                    center: [28.6138954, 77.2090057],
                     crs: L.CRS.EPSG3857,
                     ...{
   "zoom": 8,
@@ -79,7 +79,7 @@
 
         
     
-            var tile_layer_5c6138323958a62026ae3b7494c8fdc0 = L.tileLayer(
+            var tile_layer_8427eeb310b19638aedc7fa77bbd8412 = L.tileLayer(
                 "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
                 {
   "minZoom": 0,
@@ -96,17 +96,17 @@
             );
         
     
-            tile_layer_5c6138323958a62026ae3b7494c8fdc0.addTo(map_6b08c1f972f5a1c186c96b2021dca081);
+            tile_layer_8427eeb310b19638aedc7fa77bbd8412.addTo(map_df1d9205a99269c419e3650d7c0c32b7);
         
     
-            var marker_2377f1989be89c48997a6ca1b822558d = L.marker(
-                [13.122279801556282, 80.38833618164064],
+            var marker_adba8b010432ab5bdd5e713bea0826a2 = L.marker(
+                [28.6138954, 77.2090057],
                 {
 }
-            ).addTo(map_6b08c1f972f5a1c186c96b2021dca081);
+            ).addTo(map_df1d9205a99269c419e3650d7c0c32b7);
         
     
-            var icon_50e3f1d7aa62ab51f6655e244650ba58 = L.AwesomeMarkers.icon(
+            var icon_9a833719b6282383cc2f61e6f2d1dabe = L.AwesomeMarkers.icon(
                 {
   "markerColor": "blue",
   "iconColor": "white",
@@ -117,7 +117,7 @@
             );
         
     
-            marker_2377f1989be89c48997a6ca1b822558d.bindTooltip(
+            marker_adba8b010432ab5bdd5e713bea0826a2.bindTooltip(
                 `<div>
                      User Location
                  </div>`,
@@ -127,11 +127,11 @@
             );
         
     
-                marker_2377f1989be89c48997a6ca1b822558d.setIcon(icon_50e3f1d7aa62ab51f6655e244650ba58);
+                marker_adba8b010432ab5bdd5e713bea0826a2.setIcon(icon_9a833719b6282383cc2f61e6f2d1dabe);
             
     
-            var heat_map_1839aafb95698320a703b6cf1dd759e8 = L.heatLayer(
-                [[13.39173, 80.07648], [13.39116, 80.10177], [13.4464, 80.09631], [13.15903, 80.28217], [13.44872, 80.09944], [13.08046, 79.98335], [13.39117, 80.10014], [13.16044, 80.28371], [13.39245, 80.10266], [13.16294, 80.28135], [13.09297, 79.98123], [13.16086, 80.28898], [13.15959, 80.28586], [13.39263, 80.10068], [13.08313, 79.98177], [13.41818, 80.08961], [13.24881, 80.27934], [13.24811, 80.28291], [13.39227, 80.10008], [13.16056, 80.28506], [13.16035, 80.28699], [13.23539, 80.12731], [13.44667, 80.09751], [13.39439, 80.07717], [13.39317, 80.10349], [13.25143, 80.13143], [13.16153, 80.28625], [13.08108, 79.98135], [13.08253, 79.98264], [13.16125, 80.28593], [13.16192, 80.28058], [13.15996, 80.27877], [13.08423, 79.97851], [13.08008, 79.98009], [13.15782, 80.29041], [13.16286, 80.28577], [12.96981, 79.98101], [13.39073, 80.10146], [13.39061, 80.10212], [13.15791, 80.28692], [13.3933, 80.10115], [13.16333, 80.28804], [13.07775, 80.14223], [12.96065, 79.9665], [13.16086, 80.28642], [13.44834, 80.09756], [13.39423, 80.07418], [13.3931, 80.103], [13.28835, 80.21343], [13.39282, 80.09894], [13.16205, 80.28437], [13.39253, 80.10292], [13.44833, 80.09869], [13.39252, 80.10269], [13.16079, 80.28534], [13.15954, 80.28426], [13.39074, 80.10125], [13.39412, 80.10184], [13.44724, 80.09898], [13.16144, 80.28425], [12.96451, 80.09946], [13.39338, 80.10336], [13.16189, 80.28684], [13.07978, 79.98162], [12.96481, 80.09926], [13.15984, 80.2881], [13.15849, 80.28695], [13.39376, 80.10329], [13.39275, 80.10022], [12.96152, 80.10471], [13.15493, 80.1987], [13.39184, 80.10264], [13.3917, 80.10274], [13.44839, 80.09632], [13.082, 79.98353], [13.08257, 79.9798], [13.39154, 80.10023], [13.39057, 80.10255], [13.18849, 80.2851], [13.15893, 80.28242], [13.08061, 79.9821], [13.08525, 79.97984], [13.15971, 80.28539], [13.07998, 80.14161], [13.16035, 80.28514], [13.39332, 80.07751], [12.9891, 79.99692], [13.07964, 79.98275], [13.1618, 80.28671], [13.08456, 79.97805], [13.07984, 79.98273], [13.13143, 80.1376], [13.1849, 79.95192], [13.15814, 80.28381], [13.15905, 80.27941], [13.16018, 80.28852], [13.24912, 80.13418], [13.08276, 79.98001], [13.4477, 80.09579], [13.16092, 80.28741], [13.16053, 80.28671], [13.08173, 79.98024], [13.08159, 79.98122], [13.15943, 80.28594], [13.32703, 80.3168], [13.15932, 80.28021], [13.16121, 80.28211], [13.17349, 79.98573], [13.17337, 79.98677], [12.94257, 80.16927], [12.96943, 80.09361], [13.44621, 80.09758]],
+            var heat_map_ce7fe619d453adf57d65f6250c9b5969 = L.heatLayer(
+                [[28.53438, 77.70491], [28.54037, 77.69442], [28.96661, 77.31471], [28.66914, 77.69021], [28.87998, 77.57376], [28.88095, 77.57102], [28.79278, 77.15083], [28.7421, 76.93111], [28.81244, 77.64227], [28.35897, 77.24111], [28.35919, 77.24254], [28.34012, 77.2188], [28.33981, 77.22237], [28.97073, 77.4641], [28.88755, 77.60134], [28.77191, 77.59952], [28.61038, 77.69958], [28.61129, 77.70345], [28.74286, 76.9249], [28.74328, 76.92915], [28.35792, 77.24257], [28.77708, 76.9465], [28.72866, 77.15738], [28.3393, 77.22258], [28.35735, 77.24171], [28.3581, 77.24279], [28.74667, 77.59749], [28.74654, 77.59575], [28.33953, 77.22002], [28.89071, 77.10995], [28.79408, 77.14839], [28.79483, 77.1496], [28.61637, 77.46716], [28.27864, 77.27374], [28.35888, 77.24155], [28.35822, 77.23972], [28.33652, 77.21955], [28.78302, 77.61706], [28.78481, 77.61494], [28.80742, 77.61449], [29.03784, 77.35054], [28.77764, 77.30817], [28.76909, 77.64768], [28.77023, 77.6468], [28.88529, 77.02656], [28.74059, 76.93211], [28.85669, 77.27738], [28.86811, 76.84479], [28.72951, 77.15598], [28.74484, 76.92911], [28.77417, 77.56809], [28.27756, 77.27585], [28.50113, 77.69389], [28.79453, 77.47534], [28.85155, 77.22482], [28.90201, 77.40363], [28.9247, 77.45744], [28.92887, 77.3139], [28.94955, 77.39777], [28.96634, 77.37324], [28.9874, 77.26385], [28.9677, 77.14527], [29.01022, 77.36002], [28.78503, 76.8164], [28.89462, 77.00829], [28.77858, 76.94884], [28.95806, 77.4462], [28.46343, 77.13881], [28.77184, 77.56794], [28.74294, 76.92905], [28.74526, 76.92696], [28.91559, 77.27205], [28.73016, 77.15603], [28.8396, 77.53535], [28.8486, 77.34555], [29.05359, 77.2012], [28.77841, 77.62544], [28.74531, 77.57963], [28.6418, 77.57509], [28.6437, 77.69307], [28.74483, 76.92715], [28.34711, 77.23235], [28.27684, 77.27261], [29.04861, 77.32632], [28.51402, 76.84972], [28.68239, 77.56647], [28.72834, 77.15856], [28.74269, 76.92918], [28.3663, 77.22887], [28.9395, 77.31687], [28.51327, 77.64028], [28.74242, 76.92934], [28.79569, 77.64144], [28.7943, 77.63519], [28.79584, 77.63938], [28.76968, 77.45799], [28.99989, 77.22854], [28.83613, 77.14114], [28.36478, 77.22827], [28.4958, 77.27198], [28.54975, 77.65795], [28.8015, 76.90799], [28.9474, 77.42377], [28.95767, 77.31935], [28.33997, 77.22034], [28.36738, 77.2289], [28.51755, 77.64497], [28.82549, 77.60448], [28.86363, 77.47929], [28.90352, 77.46487], [28.79559, 77.15057], [28.46875, 77.65601], [28.36655, 77.2276], [28.35161, 77.25876], [28.33995, 77.21847], [28.33936, 77.2226], [29.00431, 77.36022], [28.8225, 77.48219], [28.76779, 77.56412], [28.7675, 77.56289], [28.69404, 77.57944], [28.33692, 77.22097], [28.72975, 77.1563], [28.83526, 77.44725], [29.05359, 77.28726], [29.05278, 77.28604], [28.85149, 77.16101], [28.77662, 77.30711], [28.36696, 77.2256], [28.77563, 76.94612], [28.88806, 77.58128], [28.77409, 76.79654], [28.74383, 76.92914], [28.85092, 77.16005], [28.36711, 77.22696], [28.46263, 77.35206], [28.46667, 77.35542], [28.46599, 77.35134], [28.55803, 77.48431], [28.83656, 77.21597], [28.96469, 76.91221], [28.74568, 76.92768], [28.47346, 77.34849], [28.86719, 77.52376], [28.8497, 77.16129], [28.72838, 77.15611], [28.86175, 77.30405], [28.98614, 77.34135], [28.42683, 77.01592], [28.69433, 76.89873], [28.34138, 77.21795], [28.77528, 77.30612], [28.33921, 77.22093], [28.33712, 77.22297], [28.34843, 77.23022], [28.74355, 76.92629], [28.73062, 77.15565], [28.95237, 77.39275], [28.78315, 77.54411], [28.82839, 77.15018], [28.79385, 77.15105], [28.69873, 77.32902], [28.61552, 77.46652], [28.67118, 76.96635], [28.34052, 77.22053], [29.02647, 77.10777], [29.02708, 77.11169], [28.49181, 77.17578], [28.83697, 77.13599], [28.83636, 77.1408], [28.77354, 77.59645], [28.77622, 76.94445], [28.66851, 77.57533], [28.74008, 76.93344], [28.33976, 77.22141], [28.63267, 77.34219], [28.49825, 77.65993], [28.34677, 77.22989], [28.83842, 77.13631], [28.83763, 77.13682], [28.55971, 77.36042], [28.56142, 77.36151], [28.55644, 77.36295], [28.49746, 77.49854], [28.68917, 76.97218], [28.68811, 76.97556], [28.39692, 76.77448], [28.53472, 77.41597], [28.54176, 77.41306], [28.54053, 77.41789], [28.68946, 76.97472], [28.68859, 76.97603], [28.74414, 76.9258], [28.82223, 76.95784], [28.53364, 76.86835], [28.34944, 77.23264], [28.60411, 77.12041], [28.75896, 77.60088], [28.77561, 77.59586], [28.72728, 77.15617], [28.34613, 77.25576], [28.33775, 77.22192], [28.96982, 77.44434], [28.82034, 76.85069], [28.16706, 77.23712], [28.16623, 77.23248], [29.01672, 77.31993], [28.72832, 77.15724], [28.77522, 77.30811], [28.73893, 76.93047], [28.35639, 77.23591], [28.27604, 77.27363], [28.72312, 77.56042], [28.59094, 77.40538], [28.85466, 76.95023], [28.78678, 77.04948], [28.77645, 76.94558], [28.74471, 76.93006], [28.33949, 77.2186], [28.77585, 76.94735], [28.33858, 77.22011], [28.7449, 76.92966], [28.70783, 77.61047], [28.36655, 77.22494], [28.36595, 77.22884], [28.77781, 76.94598], [28.72889, 77.15561], [28.74376, 76.92812], [28.69422, 76.98434], [28.98567, 77.4513], [28.70951, 77.68356], [28.72747, 77.1581], [28.7295, 77.15775], [28.42016, 77.00313], [28.36723, 77.2269], [28.81824, 76.85255], [28.7612, 77.30843], [28.76152, 77.30923], [28.75626, 77.30865], [28.77589, 76.9464], [28.74485, 76.9276], [28.67306, 77.60725], [28.67277, 77.61073], [28.66791, 77.60666], [28.66761, 77.61013], [28.36704, 77.22626], [28.34541, 77.23108], [28.34606, 77.22849], [28.34575, 77.2321], [28.67537, 77.24339], [28.67891, 77.24184], [29.01289, 77.44225], [28.66935, 77.60886], [28.74002, 76.93443]],
                 {
   "minOpacity": 0.5,
   "maxZoom": 18,
@@ -146,7 +146,503 @@
             );
         
     
-            heat_map_1839aafb95698320a703b6cf1dd759e8.addTo(map_6b08c1f972f5a1c186c96b2021dca081);
+            heat_map_ce7fe619d453adf57d65f6250c9b5969.addTo(map_df1d9205a99269c419e3650d7c0c32b7);
         
+    
+            var marker_2c16a571bffd9a9ee0f06a88eb2915a5 = L.marker(
+                [28.6256025, 77.2103895],
+                {
+}
+            ).addTo(map_df1d9205a99269c419e3650d7c0c32b7);
+        
+    
+            var icon_b641a76dd49864b83404d9c6b6fdf8c5 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+            marker_2c16a571bffd9a9ee0f06a88eb2915a5.bindTooltip(
+                `<div>
+                     School: School
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_2c16a571bffd9a9ee0f06a88eb2915a5.setIcon(icon_b641a76dd49864b83404d9c6b6fdf8c5);
+            
+    
+            var marker_b72305ea6e7faeb2fd6df312ddbd1621 = L.marker(
+                [28.6290356, 77.207324],
+                {
+}
+            ).addTo(map_df1d9205a99269c419e3650d7c0c32b7);
+        
+    
+            var icon_440cf0c769e2317e46d70265c75ffb81 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+            marker_b72305ea6e7faeb2fd6df312ddbd1621.bindTooltip(
+                `<div>
+                     School: Convent of Jesus and Mary
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_b72305ea6e7faeb2fd6df312ddbd1621.setIcon(icon_440cf0c769e2317e46d70265c75ffb81);
+            
+    
+            var marker_9c69cc3193c78dffa9b08c97bddce09c = L.marker(
+                [28.6293521, 77.2090975],
+                {
+}
+            ).addTo(map_df1d9205a99269c419e3650d7c0c32b7);
+        
+    
+            var icon_562a80f09f4e48ba834414432d38f564 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+            marker_9c69cc3193c78dffa9b08c97bddce09c.bindTooltip(
+                `<div>
+                     School: Khrist Raja School
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_9c69cc3193c78dffa9b08c97bddce09c.setIcon(icon_562a80f09f4e48ba834414432d38f564);
+            
+    
+            var marker_52f70cd001a2d393ced01d9644efafb2 = L.marker(
+                [28.6293072, 77.2059977],
+                {
+}
+            ).addTo(map_df1d9205a99269c419e3650d7c0c32b7);
+        
+    
+            var icon_168d3fc374b56f6342f43d4d4fada9bc = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+            marker_52f70cd001a2d393ced01d9644efafb2.bindTooltip(
+                `<div>
+                     School: Saint Columba's School
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_52f70cd001a2d393ced01d9644efafb2.setIcon(icon_168d3fc374b56f6342f43d4d4fada9bc);
+            
+    
+            var marker_12be97581150c50eca2a2eecee15471c = L.marker(
+                [28.6201595, 77.2236649],
+                {
+}
+            ).addTo(map_df1d9205a99269c419e3650d7c0c32b7);
+        
+    
+            var icon_16a35a49a2d3761232b0f975f98978f3 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+            marker_12be97581150c50eca2a2eecee15471c.bindTooltip(
+                `<div>
+                     School: Lady Irwin Senior Secondary School
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_12be97581150c50eca2a2eecee15471c.setIcon(icon_16a35a49a2d3761232b0f975f98978f3);
+            
+    
+            var marker_a82585a719bb423c5f19463a9e16536b = L.marker(
+                [28.6029221, 77.2215373],
+                {
+}
+            ).addTo(map_df1d9205a99269c419e3650d7c0c32b7);
+        
+    
+            var icon_ce5a43fa4c7a831177e7b2679d120f96 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+            marker_a82585a719bb423c5f19463a9e16536b.bindTooltip(
+                `<div>
+                     School: Lycée Français de Delhi
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_a82585a719bb423c5f19463a9e16536b.setIcon(icon_ce5a43fa4c7a831177e7b2679d120f96);
+            
+    
+            var marker_c017779b341174be7e7baa267e3ef009 = L.marker(
+                [28.6209176, 77.2284346],
+                {
+}
+            ).addTo(map_df1d9205a99269c419e3650d7c0c32b7);
+        
+    
+            var icon_c63fb0e1acf9e3300e876d750a5f94bc = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+            marker_c017779b341174be7e7baa267e3ef009.bindTooltip(
+                `<div>
+                     School: Bharti Vidya Bhawan
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_c017779b341174be7e7baa267e3ef009.setIcon(icon_c63fb0e1acf9e3300e876d750a5f94bc);
+            
+    
+            var marker_4c8a75a108fc2bb7c0feb6b84ee64f36 = L.marker(
+                [28.6335045, 77.200947],
+                {
+}
+            ).addTo(map_df1d9205a99269c419e3650d7c0c32b7);
+        
+    
+            var icon_df8238a2f965ffc2d598818d19c61227 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+            marker_4c8a75a108fc2bb7c0feb6b84ee64f36.bindTooltip(
+                `<div>
+                     School: Navyug School
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_4c8a75a108fc2bb7c0feb6b84ee64f36.setIcon(icon_df8238a2f965ffc2d598818d19c61227);
+            
+    
+            var marker_5ad8caae0e7741efcf86e9406660d0a1 = L.marker(
+                [28.6267693, 77.2092035],
+                {
+}
+            ).addTo(map_df1d9205a99269c419e3650d7c0c32b7);
+        
+    
+            var icon_02b3dca93345fca9f0f362a236edec8d = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+            marker_5ad8caae0e7741efcf86e9406660d0a1.bindTooltip(
+                `<div>
+                     Hospital: Guru Harkrishan Polyclinic Bangla Sahib
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_5ad8caae0e7741efcf86e9406660d0a1.setIcon(icon_02b3dca93345fca9f0f362a236edec8d);
+            
+    
+            var marker_2d2050c90a762b4ca3f1f7b27582eea6 = L.marker(
+                [28.6260617, 77.2007463],
+                {
+}
+            ).addTo(map_df1d9205a99269c419e3650d7c0c32b7);
+        
+    
+            var icon_8cbd5d6939b33e7937b721e2bb1f0982 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+            marker_2d2050c90a762b4ca3f1f7b27582eea6.bindTooltip(
+                `<div>
+                     Hospital: Ram Manohar Lohia Hospital
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_2d2050c90a762b4ca3f1f7b27582eea6.setIcon(icon_8cbd5d6939b33e7937b721e2bb1f0982);
+            
+    
+            var marker_dffa7facf48dd10ad782c378c60528e4 = L.marker(
+                [28.6267808, 77.2182706],
+                {
+}
+            ).addTo(map_df1d9205a99269c419e3650d7c0c32b7);
+        
+    
+            var icon_1d5dbf0f8f617398072bc998b1497147 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+            marker_dffa7facf48dd10ad782c378c60528e4.bindTooltip(
+                `<div>
+                     Hospital: General Williams Hospital
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_dffa7facf48dd10ad782c378c60528e4.setIcon(icon_1d5dbf0f8f617398072bc998b1497147);
+            
+    
+            var marker_01d550c49336db997a75077f80c0439a = L.marker(
+                [28.6311711, 77.2170294],
+                {
+}
+            ).addTo(map_df1d9205a99269c419e3650d7c0c32b7);
+        
+    
+            var icon_4b6be0774324fbf98da1a877de07daf4 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+            marker_01d550c49336db997a75077f80c0439a.bindTooltip(
+                `<div>
+                     Hospital: Arvind Medicare
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_01d550c49336db997a75077f80c0439a.setIcon(icon_4b6be0774324fbf98da1a877de07daf4);
+            
+    
+            var marker_79d12f01d2596c93391c29636bd87ee6 = L.marker(
+                [28.634138, 77.212909],
+                {
+}
+            ).addTo(map_df1d9205a99269c419e3650d7c0c32b7);
+        
+    
+            var icon_3b86896c1ee08bcfda0216cccac0759b = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+            marker_79d12f01d2596c93391c29636bd87ee6.bindTooltip(
+                `<div>
+                     Hospital: Lady Hardinge Medical College & Associated Hospitals
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_79d12f01d2596c93391c29636bd87ee6.setIcon(icon_3b86896c1ee08bcfda0216cccac0759b);
+            
+    
+            var marker_9524f4c1278bcdb63a42afd58a065aaf = L.marker(
+                [28.6357652, 77.2110664],
+                {
+}
+            ).addTo(map_df1d9205a99269c419e3650d7c0c32b7);
+        
+    
+            var icon_7159c3082266308bf26fc351f3b7fbb9 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+            marker_9524f4c1278bcdb63a42afd58a065aaf.bindTooltip(
+                `<div>
+                     Hospital: Kalawati Saran Children's Hospital
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_9524f4c1278bcdb63a42afd58a065aaf.setIcon(icon_7159c3082266308bf26fc351f3b7fbb9);
+            
+    
+            var marker_144cc98cad8a00e3418c1f347b59ed07 = L.marker(
+                [28.6365867, 77.2173905],
+                {
+}
+            ).addTo(map_df1d9205a99269c419e3650d7c0c32b7);
+        
+    
+            var icon_815a0861dde092bbffe4741c8de68a8d = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+            marker_144cc98cad8a00e3418c1f347b59ed07.bindTooltip(
+                `<div>
+                     Hospital: Central Hospital (Northern Railways)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_144cc98cad8a00e3418c1f347b59ed07.setIcon(icon_815a0861dde092bbffe4741c8de68a8d);
+            
+    
+            var marker_c71e87791686d8a6b59fb711ac7d8bec = L.marker(
+                [28.6416777, 77.2052683],
+                {
+}
+            ).addTo(map_df1d9205a99269c419e3650d7c0c32b7);
+        
+    
+            var icon_796fb5f30ba2baf78a634af52f130cd0 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+            marker_c71e87791686d8a6b59fb711ac7d8bec.bindTooltip(
+                `<div>
+                     Hospital: Delhi Heart and Lung Institute Super Speciality Hospital
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_c71e87791686d8a6b59fb711ac7d8bec.setIcon(icon_796fb5f30ba2baf78a634af52f130cd0);
+            
 </script>
 </html>
